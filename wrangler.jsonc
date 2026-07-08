@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "tg-shop",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-07-08",
+
+  "assets": {
+    "directory": "admin"
+  },
+
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
